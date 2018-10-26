@@ -1,0 +1,57 @@
+#!/usr/bin/perl -w
+
+# converts ping output to per-second quality data
+# usage: ping2log < ping-output.txt > log.txt
+
+use strict;
+
+my @buffer; # buffer with received responses
+
+while(defined(my $in=<>)){
+    if($in=~/^\[(\d+\.\d+)\].*icmp_seq\=(\d+) .*time\=(\d+\.?\d+) ms/){
+	my $r={
+	    sec=>$1,
+	    seq=>$2,
+	    ms=>$3
+	};
+	$r->{sent}=$r->{sec}-($r->{ms}/1000);
+	$r->{s}=int($r->{sent});
+	push @buffer,$r;
+	while(@buffer > 60){
+	    pop_buffer();
+	};
+    };
+};
+# empty remaining buffer
+while(@buffer){
+    pop_buffer();
+};
+
+my $lps=undef; # latest printed second
+my $waiting=undef; # one-response buffer
+
+sub pop_buffer{
+    # pick report from buffer, earliest sent report first
+    @buffer=sort {$b->{seq} <=> $a->{seq}} @buffer;
+    my $r=pop @buffer;
+
+    if(!defined($lps)){
+	$lps=$r->{s}-1;
+    };
+
+    # print placeholder in case of seconds without any response
+    while($r->{s} > $lps+1){
+	print "".($lps+1)."\t-\n";
+	$lps++;
+    };
+
+    # increase second if same as already printed (marginal cases)
+    if($r->{s} == $lps){
+	warn $r->{seq}."\n";
+	$r->{s}++;
+    };
+
+    # print
+    print $r->{s}."\t".int($r->{'ms'})."\n";
+    $lps=$r->{s};
+};
