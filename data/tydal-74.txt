@@ -1,0 +1,81 @@
+Stockholm C		23:48	0		
+Karlberg		23:51	2		
+Tomteboda övre		23:52	3		
+Solna		23:53	5		
+Ulriksdal		23:53	6		
+Kummelby		23:56	11		
+Häggvik		23:57	14		
+Rotebro		23:59	18		
+Upplands Väsby		00:01	24		
+Skavstaby		00:02	27		
+Blackvreten		00:05	34		
+Arlanda nedre		00:06	36		
+Arlanda C	00:09	00:12	38		
+Myrbacken		00:19	49		
+Knivsta		00:20	53		
+Ekeby		00:23	59		
+Säby		00:26	65		
+Uppsala C	00:30	00:33	70		
+Samnan		00:38	76		
+Storvreta		00:40	82		
+Salsta		00:45	92		
+Järlebo		00:49	102		
+Örbyhus		00:55	114		
+Tobo		00:57	119		
+Skärpan		00:59	125		
+Tierp		01:01	131		
+Orrskog		01:06	140		
+Marma		01:09	149		
+Skutskär		01:17	165		
+Bomansberget		01:21	176		
+Gävle C	01:26	01:36	182		
+Strömsbro		01:41	185		
+Oslättfors		01:50	199		
+Kolforsen		01:56	210		
+Ockelbo		02:02	220		
+Mo grindar		02:06	227		
+Döljebro		02:10	233		
+Holmsveden		02:16	248		
+Röstbo		02:20	255		
+Kilafors		02:25	264		
+Bollnäs		02:36	281		
+Lottefors		02:41	289		
+Arbrå	02:46	02:51	295		
+Vallsta		02:55	301		
+Simeå		02:59	307		
+Karsjö		03:04	316		
+Lörstrand		03:07	322		
+Järvsö		03:10	329		
+Skästra		03:12	332		
+Ljusdal		03:18	343		
+Tallåsen		03:22	350		
+Loster		03:30	360		
+Hennan		03:37	371		
+Hälsingenybo		03:42	377		
+Örabäcken		03:47	384		
+Ramsjö		03:52	391		
+Norrhög		03:58	401		
+Mellansjö		04:03	409		
+Juån		04:07	419		
+Östavall		04:12	427		
+Alby		04:16	436		
+Ovansjö	04:22	04:24	444		
+Ångebyn		04:27	445		
+Moradal		04:31	451		
+Dysjön		04:36	458		
+Bensjöbacken		04:40	469		
+Bräcke		04:43	474		
+Stavre		04:49	485		
+Gällö		04:56	497		
+Pilgrimstad		05:06	512		
+Brunflo	05:18	05:21	530		
+Ope		05:27	538		
+Östersund C	05:33	05:48	545		
+Krokom	06:04	06:07			
+Storflon		06:12	570		
+Trångsviken		06:24	592		
+Mörsil	06:37	06:41	613		
+Järpen	06:50	06:53	624		
+Undersåker	07:04	07:07	637		
+Åre	07:18	07:28	650		
+Duved	07:37		659	
